@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url(/fonts/TTLakes/TTLakes-Regular.eot) format("eot"),
+      url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff"),
+       url(/fonts/TTLakes/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "TT Lakes", sans-serif;
+  min-width: 320px;
+  min-height: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+header {
+  background: #fff;
+}
+.container {
+  min-height: 88px;
+  padding: 17.59px 16px;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  background: #d9fff5;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu__call {
+  visibility: hidden;
+  display: none;
+}
+.header__menu__chat {
+  visibility: hidden;
+  display: none;
+}
+.header__menu__profile {
+  visibility: hidden;
+  display: none;
+}
+.header__menu__logo::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  border-radius: 1px;
+  background: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.main__title {
+  margin: 24px 16px;
+  width: 304px;
+  height: 40px;
+}
+.main__title_text {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1b1c21;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background-image: url(/img/icon/highlight.svg);
+  margin-top: -8px;
+}
+.slide-menu {
+  color: #7e7e82;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 16px;
+}
+.btn_1 {
+  background: #ffffff;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  color: #7e7e82;
+  padding: 8px 9.3px 8px 16.54px;
+  margin-left: 16px;
+  display: inline-block;
+}
+.btn_2 {
+  visibility: hidden;
+  display: none;
+}
+.btn_3 {
+  visibility: hidden;
+  display: none;
+}
+.btn_4 {
+  visibility: hidden;
+  display: none;
+}
+.btn_5 {
+  visibility: hidden;
+  display: none;
+}
+.btn_6 {
+  display: none;
+  visibility: hidden;
+}
+.text_1 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+  margin: 24px 16px 16px 16px;
+}
+.read-more {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 48px;
+}
+.read-more::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  color: #41f6d7;
+  background-image: url(/img/icon/expand.svg);
+  margin-left: -30px;
+}
+
+.img_1 {
+  width: 320px;
+  height: 176px;
+  margin-top: 24px;
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 768px;
+    min-height: auto;
+  }
+  .container {
+    padding: 17.59px 24px;
+  }
+  .header__menu {
+    justify-content: flex-start;
+  }
+  .header__menu__logo {
+    padding-left: 42.73px;
+  }
+  .header__menu__call {
+    visibility: visible;
+    display: block;
+    margin-left: 251px;
+  }
+  .header__menu__chat {
+    visibility: visible;
+    display: block;
+    margin-left: 16px;
+  }
+  .header__menu__profile {
+    visibility: visible;
+    display: block;
+    margin-left: 16px;
+  }
+  .header__menu__logo::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background: #eaeaea;
+    margin-left: -21.3px;
+    margin-top: 10px;
+  }
+  .header__menu__logo::after {
+    visibility: hidden;
+    display: none;
+  }
+  .header__menu__repair {
+    margin-left: 32px;
+  }
+  .header__menu__profile::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background: #eaeaea;
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+  .header__menu__checkstatus {
+    margin-left: 16px;
+  }
+  .main__title_text {
+    margin-left: 24px;
+  }
+  .slide-menu {
+    margin-left: 24px;
+    display: flex;
+  }
+  .slide-menu__btns {
+    color: #7e7e82;
+    background: #f8f8f8;
+    margin-right: 24.83px;
+    display: block;
+    visibility: visible;
+  }
+  .btn_5 {
+    display: none;
+  }
+  .btn_6 {
+    display: none;
+  }
+  main {
+    min-height: auto;
+  }
+  .section {
+    display: flex;
+  }
+  .main-text {
+    margin-left: 24px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+  .text_1::after {
+    content: "Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера";
+    display: flex;
+    margin-top: 30px;
+  }
+  .img_1 {
+    object-fit: cover;
+    width: 360px;
+    height: 260px;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  body {
+    min-width: 1120px;
+    color: #f8f8f8;
+  }
+  .container {
+    visibility: hidden;
+    display: none;
+  }
+
+  .main__title_text {
+    margin-top: 42px;
+  }
+  .main__title_text::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    right: 51px;
+    top: 34px;
+    background-image: url(/img/icon/checkstatus.svg);
+  }
+  .main__title_text::before {
+    content: "Статус ремонта";
+    position: absolute;
+    text-align: center;
+    right: 9%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+  }
+  .main__title_text1::before {
+    content: "Оставить заявку";
+    position: absolute;
+    text-align: center;
+    right: 290px;
+    top: 43px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+  }
+  .main__title_text1::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    right: 240px;
+    top: 34px;
+    background-image: url(/img/icon/repair.svg);
+  }
+  .slide-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 19px;
+  }
+  .slide-menu__btns {
+    display: block;
+    visibility: visible;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn_6 {
+    order: 1;
+    margin-left: 32.54px;
+    margin-top: 14.63px;
+  }
+
+  .img_1 {
+    object-fit: cover;
+    width: 532px;
+    height: 384px;
+    margin-right: 29px;
+  }
+  .text_1::after {
+    content: "Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.";
+    display: flex;
+    margin-top: 30px;
+  }
+  .main-text {
+    margin-left: 36px;
+    width: 490px;
+    height: 160px;
+  }
+  .text_1 {
+    margin-right: 34px;
+    width: auto;
+  }
+}
