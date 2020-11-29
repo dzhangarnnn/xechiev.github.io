@@ -1,2 +1,2 @@
 # Mingiian Khechiev
-[Задание 1.3](xechiev.github.io/Task_1_3/)
+[Задание 1.3](https://xechiev.github.io/Task_1_3/)
